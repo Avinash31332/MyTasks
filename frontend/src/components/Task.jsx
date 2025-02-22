@@ -39,22 +39,22 @@ function Task() {
     month: "long", // Full month name (e.g., "February")
     day: "numeric", // Day of the month (e.g., 22)
   });
-  if (datas.length >= 0) {
-    return (
-      <div className="w-full h-[90%] overflow-y-hidden">
-        <p className="text-xl font-semibold p-4 text-blue-600 bg-gray-100 border-2 border-zinc-200">
-          {formattedDate}
-        </p>
-        <Link
-          to={"/tasks/create"}
-          className="mt-16 flex justify-center items-center h-[50%] bg-blue-200 border-1 border-blue-100 rounded-lg text-blue-400 text-xl font-medium"
-        >
-          <AddOutlinedIcon />
-          Add your First Task
-        </Link>
-      </div>
-    );
-  }
+  // if (datas.length >= 0) {
+  //   return (
+  //     <div className="w-full h-[90%] overflow-y-hidden">
+  //       <p className="text-xl font-semibold p-4 text-blue-600 bg-gray-100 border-2 border-zinc-200">
+  //         {formattedDate}
+  //       </p>
+  //       <Link
+  //         to={"/tasks/create"}
+  //         className="mt-16 flex justify-center items-center h-[50%] bg-blue-200 border-1 border-blue-100 rounded-lg text-blue-400 text-xl font-medium"
+  //       >
+  //         <AddOutlinedIcon />
+  //         Add your First Task
+  //       </Link>
+  //     </div>
+  //   );
+  // }
   return (
     <div>
       <p className="text-xl font-semibold p-4 text-blue-600 bg-gray-100 border-2 border-zinc-200">
